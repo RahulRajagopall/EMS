@@ -53,7 +53,7 @@ public class UserController : Controller
         try
             {
                 HttpClient httpClient=new HttpClient();
-               string apiUrl="http://localhost:5062/api/Brand";
+               string apiUrl="http://localhost:5269/API/Operations";
                var jsondata = JsonConvert.SerializeObject(complaintModel);
                var data = new StringContent(jsondata,Encoding.UTF8,"application/json");
                var httpresponse=httpClient.PostAsync(apiUrl,data);

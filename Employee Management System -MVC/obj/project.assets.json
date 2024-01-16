@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -11140,7 +11140,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "Microsoft.AspNetCore.Http >= 2.2.2",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.3",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
@@ -11159,31 +11159,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\rahul.rajagopalan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Employee Management System (Rahul R)\\Employee Management System -MVC\\ems.csproj",
+      "projectUniqueName": "C:\\Users\\rahul.rajagopalan\\Desktop\\Aspire\\Employee-Management-System\\Employee Management System -MVC\\ems.csproj",
       "projectName": "ems",
-      "projectPath": "C:\\Users\\User\\Desktop\\Employee Management System (Rahul R)\\Employee Management System -MVC\\ems.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Employee Management System (Rahul R)\\Employee Management System -MVC\\obj\\",
+      "projectPath": "C:\\Users\\rahul.rajagopalan\\Desktop\\Aspire\\Employee-Management-System\\Employee Management System -MVC\\ems.csproj",
+      "packagesPath": "C:\\Users\\rahul.rajagopalan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rahul.rajagopalan\\Desktop\\Aspire\\Employee-Management-System\\Employee Management System -MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\rahul.rajagopalan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -11194,8 +11192,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http": {
             "target": "Package",
@@ -11279,7 +11277,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11288,10 +11286,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Net.Http.Formatting.Extension 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Net.Http.Formatting.Extension 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Net.Http.Formatting.Extension",
       "targetGraphs": [
-        "net7.0"
+        "net8.0"
       ]
     }
   ]
